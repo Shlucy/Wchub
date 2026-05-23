@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse all FIFA World Cup 2026 matches and request ticket availability through WhatsApp."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <title>All FIFA World Cup 2026 Matches | WcFifa</title>
+    <link rel="icon" type="image/png" href="assets/images/teams/fifa%20world%20cup%20logo.png" />
+    <link rel="apple-touch-icon" href="assets/images/teams/fifa%20world%20cup%20logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span><strong>WcFifa ticket assistance</strong> via WhatsApp</span>
+        <div class="topbar-links" aria-label="Trust notes">
+          <span>Availability confirmed before payment</span>
+          <span>Independent service</span>
+          <span>Canada · Mexico · USA</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="WcFifa home">
+          <span class="brand-mark"><img src="assets/images/teams/fifa world cup logo.png" alt="" /></span>
+          <span>
+            WcFifa
+            <small>Canada · Mexico · USA</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open menu" data-nav-toggle>
+          <span class="nav-toggle-line" aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav-links" aria-label="Main navigation" data-nav-links>
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="matches.html" data-nav-link>Matches</a>
+          <a href="stadiums.html" data-nav-link>Stadiums</a>
+          <a href="teams.html" data-nav-link>Teams</a>
+          <a href="how-it-works.html" data-nav-link>How It Works</a>
+          <a href="contact.html" data-nav-link>Contact</a>
+          <a class="button button-primary" href="#" data-whatsapp-general>WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero matches-hero" aria-labelledby="matches-hero-title">
+        <div class="container page-hero-content">
+          <p class="hero-kicker">Group stage to final</p>
+          <h1 id="matches-hero-title">All FIFA World Cup 2026 Matches</h1>
+          <p class="page-hero-subtitle">104 Matches • Group Stage to Final • Buy Tickets Instantly</p>
+
+          <form class="match-search" role="search" aria-label="Search World Cup 2026 matches">
+            <label class="sr-only" for="match-search-input">Search matches, teams, stadiums, or host cities</label>
+            <input
+              id="match-search-input"
+              type="search"
+              name="q"
+              placeholder="Search by team, stadium, city, date, or stage"
+              autocomplete="off"
+            />
+            <button class="button button-primary" type="submit">Search Matches</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section match-filters-section" aria-labelledby="match-filters-title">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Find your match</p>
+            <h2 id="match-filters-title">Filter World Cup Tickets</h2>
+            <p class="muted">
+              Narrow tickets by date, stage, stadium, team, and price before opening a WhatsApp request.
+            </p>
+          </div>
+
+          <form class="filters-panel" data-match-filters>
+            <div class="filters-grid">
+              <div class="field">
+                <label for="filter-date">Date Range</label>
+                <select id="filter-date" name="date">
+                  <option value="">All dates</option>
+                  <option value="june">June 2026</option>
+                  <option value="july">July 2026</option>
+                  <option value="opening">Opening match</option>
+                  <option value="final">Final week</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="filter-stage">Stage</label>
+                <select id="filter-stage" name="stage">
+                  <option value="">All stages</option>
+                  <option value="group-stage">Group Stage</option>
+                  <option value="round-of-32">Round of 32</option>
+                  <option value="round-of-16">Round of 16</option>
+                  <option value="quarter-finals">Quarter-finals</option>
+                  <option value="semi-finals">Semi-finals</option>
+                  <option value="final">Final</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="filter-stadium">Stadium</label>
+                <select id="filter-stadium" name="stadium">
+                  <option value="">All 16 venues</option>
+                  <option value="atlanta">Atlanta Stadium</option>
+                  <option value="boston">Boston Stadium</option>
+                  <option value="dallas">Dallas Stadium</option>
+                  <option value="guadalajara">Guadalajara Stadium</option>
+                  <option value="houston">Houston Stadium</option>
+                  <option value="kansas-city">Kansas City Stadium</option>
+                  <option value="los-angeles">Los Angeles Stadium</option>
+                  <option value="mexico-city">Mexico City Stadium</option>
+                  <option value="miami">Miami Stadium</option>
+                  <option value="monterrey">Monterrey Stadium</option>
+                  <option value="new-york-new-jersey">New York New Jersey Stadium</option>
+                  <option value="philadelphia">Philadelphia Stadium</option>
+                  <option value="san-francisco-bay-area">San Francisco Bay Area Stadium</option>
+                  <option value="seattle">Seattle Stadium</option>
+                  <option value="toronto">Toronto Stadium</option>
+                  <option value="vancouver">Vancouver Stadium</option>
+                </select>
+              </div>
+
+              <div class="field price-field">
+                <label for="filter-price">Price Range</label>
+                <div class="price-range-row">
+                  <span>$100</span>
+                  <strong data-price-output>$2,000</strong>
+                </div>
+                <input
+                  id="filter-price"
+                  type="range"
+                  name="price"
+                  min="100"
+                  max="2000"
+                  step="50"
+                  value="2000"
+                  data-price-range
+                />
+              </div>
+            </div>
+
+            <div class="teams-filter">
+              <div class="teams-filter-header">
+                <div>
+                  <label for="filter-team-search">Teams</label>
+                  <p class="muted small">Search and select one or more teams.</p>
+                </div>
+                <span class="selected-count" data-selected-team-count>0 selected</span>
+              </div>
+
+              <input
+                id="filter-team-search"
+                class="team-search-input"
+                type="search"
+                placeholder="Search teams by name"
+                autocomplete="off"
+                data-team-filter-search
+              />
+
+              <div class="team-options" aria-label="Team filter options">
+                <label data-team-option data-team-name="USA"><input type="checkbox" name="team" value="USA" /><img src="https://flagcdn.com/w320/us.png" alt="" />USA</label>
+                <label data-team-option data-team-name="Mexico"><input type="checkbox" name="team" value="Mexico" /><img src="https://flagcdn.com/w320/mx.png" alt="" />Mexico</label>
+                <label data-team-option data-team-name="Canada"><input type="checkbox" name="team" value="Canada" /><img src="https://flagcdn.com/w320/ca.png" alt="" />Canada</label>
+                <label data-team-option data-team-name="Argentina"><input type="checkbox" name="team" value="Argentina" /><img src="https://flagcdn.com/w320/ar.png" alt="" />Argentina</label>
+                <label data-team-option data-team-name="Brazil"><input type="checkbox" name="team" value="Brazil" /><img src="https://flagcdn.com/w320/br.png" alt="" />Brazil</label>
+                <label data-team-option data-team-name="France"><input type="checkbox" name="team" value="France" /><img src="https://flagcdn.com/w320/fr.png" alt="" />France</label>
+                <label data-team-option data-team-name="England"><input type="checkbox" name="team" value="England" /><img src="https://flagcdn.com/w320/gb-eng.png" alt="" />England</label>
+                <label data-team-option data-team-name="Germany"><input type="checkbox" name="team" value="Germany" /><img src="https://flagcdn.com/w320/de.png" alt="" />Germany</label>
+                <label data-team-option data-team-name="Spain"><input type="checkbox" name="team" value="Spain" /><img src="https://flagcdn.com/w320/es.png" alt="" />Spain</label>
+                <label data-team-option data-team-name="Portugal"><input type="checkbox" name="team" value="Portugal" /><img src="https://flagcdn.com/w320/pt.png" alt="" />Portugal</label>
+                <label data-team-option data-team-name="Netherlands"><input type="checkbox" name="team" value="Netherlands" /><img src="https://flagcdn.com/w320/nl.png" alt="" />Netherlands</label>
+                <label data-team-option data-team-name="Belgium"><input type="checkbox" name="team" value="Belgium" /><img src="https://flagcdn.com/w320/be.png" alt="" />Belgium</label>
+                <label data-team-option data-team-name="Croatia"><input type="checkbox" name="team" value="Croatia" /><img src="https://flagcdn.com/w320/hr.png" alt="" />Croatia</label>
+                <label data-team-option data-team-name="Switzerland"><input type="checkbox" name="team" value="Switzerland" /><img src="https://flagcdn.com/w320/ch.png" alt="" />Switzerland</label>
+                <label data-team-option data-team-name="Australia"><input type="checkbox" name="team" value="Australia" /><img src="https://flagcdn.com/w320/au.png" alt="" />Australia</label>
+                <label data-team-option data-team-name="Japan"><input type="checkbox" name="team" value="Japan" /><img src="https://flagcdn.com/w320/jp.png" alt="" />Japan</label>
+                <label data-team-option data-team-name="Korea Republic"><input type="checkbox" name="team" value="Korea Republic" /><img src="https://flagcdn.com/w320/kr.png" alt="" />Korea Republic</label>
+                <label data-team-option data-team-name="Morocco"><input type="checkbox" name="team" value="Morocco" /><img src="https://flagcdn.com/w320/ma.png" alt="" />Morocco</label>
+                <label data-team-option data-team-name="Senegal"><input type="checkbox" name="team" value="Senegal" /><img src="https://flagcdn.com/w320/sn.png" alt="" />Senegal</label>
+                <label data-team-option data-team-name="Ghana"><input type="checkbox" name="team" value="Ghana" /><img src="https://flagcdn.com/w320/gh.png" alt="" />Ghana</label>
+                <label data-team-option data-team-name="Côte d'Ivoire Ivory Coast"><input type="checkbox" name="team" value="Côte d'Ivoire" /><img src="https://flagcdn.com/w320/ci.png" alt="" />Côte d'Ivoire</label>
+                <label data-team-option data-team-name="South Africa"><input type="checkbox" name="team" value="South Africa" /><img src="https://flagcdn.com/w320/za.png" alt="" />South Africa</label>
+                <label data-team-option data-team-name="Algeria"><input type="checkbox" name="team" value="Algeria" /><img src="https://flagcdn.com/w320/dz.png" alt="" />Algeria</label>
+                <label data-team-option data-team-name="Egypt"><input type="checkbox" name="team" value="Egypt" /><img src="https://flagcdn.com/w320/eg.png" alt="" />Egypt</label>
+                <label data-team-option data-team-name="Tunisia"><input type="checkbox" name="team" value="Tunisia" /><img src="https://flagcdn.com/w320/tn.png" alt="" />Tunisia</label>
+                <label data-team-option data-team-name="Cabo Verde"><input type="checkbox" name="team" value="Cabo Verde" /><img src="https://flagcdn.com/w320/cv.png" alt="" />Cabo Verde</label>
+                <label data-team-option data-team-name="Congo DR DR Congo"><input type="checkbox" name="team" value="Congo DR" /><img src="https://flagcdn.com/w320/cd.png" alt="" />Congo DR</label>
+                <label data-team-option data-team-name="Saudi Arabia"><input type="checkbox" name="team" value="Saudi Arabia" /><img src="https://flagcdn.com/w320/sa.png" alt="" />Saudi Arabia</label>
+                <label data-team-option data-team-name="IR Iran Iran"><input type="checkbox" name="team" value="IR Iran" /><img src="https://flagcdn.com/w320/ir.png" alt="" />IR Iran</label>
+                <label data-team-option data-team-name="Iraq"><input type="checkbox" name="team" value="Iraq" /><img src="https://flagcdn.com/w320/iq.png" alt="" />Iraq</label>
+                <label data-team-option data-team-name="Jordan"><input type="checkbox" name="team" value="Jordan" /><img src="https://flagcdn.com/w320/jo.png" alt="" />Jordan</label>
+                <label data-team-option data-team-name="Qatar"><input type="checkbox" name="team" value="Qatar" /><img src="https://flagcdn.com/w320/qa.png" alt="" />Qatar</label>
+                <label data-team-option data-team-name="Uzbekistan"><input type="checkbox" name="team" value="Uzbekistan" /><img src="https://flagcdn.com/w320/uz.png" alt="" />Uzbekistan</label>
+                <label data-team-option data-team-name="Uruguay"><input type="checkbox" name="team" value="Uruguay" /><img src="https://flagcdn.com/w320/uy.png" alt="" />Uruguay</label>
+                <label data-team-option data-team-name="Colombia"><input type="checkbox" name="team" value="Colombia" /><img src="https://flagcdn.com/w320/co.png" alt="" />Colombia</label>
+                <label data-team-option data-team-name="Ecuador"><input type="checkbox" name="team" value="Ecuador" /><img src="https://flagcdn.com/w320/ec.png" alt="" />Ecuador</label>
+                <label data-team-option data-team-name="Paraguay"><input type="checkbox" name="team" value="Paraguay" /><img src="https://flagcdn.com/w320/py.png" alt="" />Paraguay</label>
+                <label data-team-option data-team-name="Scotland"><input type="checkbox" name="team" value="Scotland" /><img src="https://flagcdn.com/w320/gb-sct.png" alt="" />Scotland</label>
+                <label data-team-option data-team-name="Türkiye Turkey"><input type="checkbox" name="team" value="Türkiye" /><img src="https://flagcdn.com/w320/tr.png" alt="" />Türkiye</label>
+                <label data-team-option data-team-name="Austria"><input type="checkbox" name="team" value="Austria" /><img src="https://flagcdn.com/w320/at.png" alt="" />Austria</label>
+                <label data-team-option data-team-name="Sweden"><input type="checkbox" name="team" value="Sweden" /><img src="https://flagcdn.com/w320/se.png" alt="" />Sweden</label>
+                <label data-team-option data-team-name="Norway"><input type="checkbox" name="team" value="Norway" /><img src="https://flagcdn.com/w320/no.png" alt="" />Norway</label>
+                <label data-team-option data-team-name="Czechia Czech Republic"><input type="checkbox" name="team" value="Czechia" /><img src="https://flagcdn.com/w320/cz.png" alt="" />Czechia</label>
+                <label data-team-option data-team-name="Bosnia and Herzegovina Bosnia & Herzegovina"><input type="checkbox" name="team" value="Bosnia and Herzegovina" /><img src="https://flagcdn.com/w320/ba.png" alt="" />Bosnia & Herzegovina</label>
+                <label data-team-option data-team-name="New Zealand"><input type="checkbox" name="team" value="New Zealand" /><img src="https://flagcdn.com/w320/nz.png" alt="" />New Zealand</label>
+                <label data-team-option data-team-name="Haiti"><input type="checkbox" name="team" value="Haiti" /><img src="https://flagcdn.com/w320/ht.png" alt="" />Haiti</label>
+                <label data-team-option data-team-name="Panama"><input type="checkbox" name="team" value="Panama" /><img src="https://flagcdn.com/w320/pa.png" alt="" />Panama</label>
+                <label data-team-option data-team-name="Curaçao Curacao"><input type="checkbox" name="team" value="Curaçao" /><img src="https://flagcdn.com/w320/cw.png" alt="" />Curaçao</label>
+              </div>
+            </div>
+
+            <div class="filter-actions">
+              <button class="button button-primary" type="submit">Apply Filters</button>
+              <button class="button button-secondary" type="reset" data-reset-filters>Reset Filters</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="results-summary-section" aria-label="Match results summary">
+        <div class="container results-summary-bar">
+          <p>Showing <strong data-results-range>1-20</strong> of <strong data-results-total>104</strong> matches</p>
+          <div class="view-toggle" aria-label="Change results view">
+            <button class="is-active" type="button" data-view-toggle="grid" aria-pressed="true">Grid View</button>
+            <button type="button" data-view-toggle="list" aria-pressed="false">List View</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section matches-display-section" aria-label="World Cup match results">
+        <div class="container">
+          <div class="matches-content-layout">
+            <div class="matches-main-column">
+          <div class="matches-results-grid" data-match-results>
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-gold">Limited Tickets</span>
+                <span class="pill">Group A</span>
+              </div>
+              <div class="result-match-time">June 11, 2026 - 3:00 PM</div>
+              <div class="result-stadium">Mexico City Stadium - Mexico City</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/mx.png" alt="Mexico flag" /><span>Mexico</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/za.png" alt="South Africa flag" /><span>South Africa</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 1</span></div>
+              <p class="price-line">Category 1: $450 - $850</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Mexico vs South Africa" data-stage="Group A" data-date="June 11, 2026 - 3:00 PM" data-stadium="Mexico City Stadium" data-city="Mexico City">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-green">Host Nation</span>
+                <span class="pill">Group D</span>
+              </div>
+              <div class="result-match-time">June 12, 2026 - 9:00 PM</div>
+              <div class="result-stadium">Los Angeles Stadium - Los Angeles</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/us.png" alt="USA flag" /><span>USA</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/py.png" alt="Paraguay flag" /><span>Paraguay</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 4</span></div>
+              <p class="price-line">Category 1: $500 - $950</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="USA vs Paraguay" data-stage="Group D" data-date="June 12, 2026 - 9:00 PM" data-stadium="Los Angeles Stadium" data-city="Los Angeles">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-gold">Limited Tickets</span>
+                <span class="pill">Group C</span>
+              </div>
+              <div class="result-match-time">June 13, 2026 - 6:00 PM</div>
+              <div class="result-stadium">New York New Jersey Stadium - East Rutherford</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/br.png" alt="Brazil flag" /><span>Brazil</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/ma.png" alt="Morocco flag" /><span>Morocco</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 7</span></div>
+              <p class="price-line">Category 1: $650 - $1,250</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Brazil vs Morocco" data-stage="Group C" data-date="June 13, 2026 - 6:00 PM" data-stadium="New York New Jersey Stadium" data-city="East Rutherford">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group F</span></div>
+              <div class="result-match-time">June 14, 2026 - 9:00 PM</div>
+              <div class="result-stadium">Dallas Stadium - Dallas</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/nl.png" alt="Netherlands flag" /><span>Netherlands</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/jp.png" alt="Japan flag" /><span>Japan</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 12</span></div>
+              <p class="price-line">Category 1: $420 - $780</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Netherlands vs Japan" data-stage="Group F" data-date="June 14, 2026 - 9:00 PM" data-stadium="Dallas Stadium" data-city="Dallas">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-gold">Limited Tickets</span>
+                <span class="pill">Group I</span>
+              </div>
+              <div class="result-match-time">June 16, 2026 - 3:00 PM</div>
+              <div class="result-stadium">New York New Jersey Stadium - East Rutherford</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/fr.png" alt="France flag" /><span>France</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/sn.png" alt="Senegal flag" /><span>Senegal</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 19</span></div>
+              <p class="price-line">Category 1: $580 - $1,100</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="France vs Senegal" data-stage="Group I" data-date="June 16, 2026 - 3:00 PM" data-stadium="New York New Jersey Stadium" data-city="East Rutherford">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-gold">Limited Tickets</span>
+                <span class="pill">Group J</span>
+              </div>
+              <div class="result-match-time">June 16, 2026 - 8:00 PM</div>
+              <div class="result-stadium">Kansas City Stadium - Kansas City</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/ar.png" alt="Argentina flag" /><span>Argentina</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/dz.png" alt="Algeria flag" /><span>Algeria</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 20</span></div>
+              <p class="price-line">Category 1: $620 - $1,200</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Argentina vs Algeria" data-stage="Group J" data-date="June 16, 2026 - 8:00 PM" data-stadium="Kansas City Stadium" data-city="Kansas City">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group E</span></div>
+              <div class="result-match-time">June 20, 2026 - Time TBC</div>
+              <div class="result-stadium">Toronto Stadium - Toronto</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/de.png" alt="Germany flag" /><span>Germany</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/ci.png" alt="Ivory Coast flag" /><span>Ivory Coast</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 33</span></div>
+              <p class="price-line">Category 1: $430 - $850</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Germany vs Ivory Coast" data-stage="Group E" data-date="June 20, 2026 - Time TBC" data-stadium="Toronto Stadium" data-city="Toronto">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group H</span></div>
+              <div class="result-match-time">June 21, 2026 - Time TBC</div>
+              <div class="result-stadium">Atlanta Stadium - Atlanta</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/es.png" alt="Spain flag" /><span>Spain</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/sa.png" alt="Saudi Arabia flag" /><span>Saudi Arabia</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 38</span></div>
+              <p class="price-line">Category 1: $460 - $900</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Spain vs Saudi Arabia" data-stage="Group H" data-date="June 21, 2026 - Time TBC" data-stadium="Atlanta Stadium" data-city="Atlanta">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group B</span></div>
+              <div class="result-match-time">June 12, 2026 - Time TBC</div>
+              <div class="result-stadium">Toronto Stadium - Toronto</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/ca.png" alt="Canada flag" /><span>Canada</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/ch.png" alt="Switzerland flag" /><span>Switzerland</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 2</span></div>
+              <p class="price-line">Category 1: $400 - $820</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Canada vs Switzerland" data-stage="Group B" data-date="June 12, 2026 - Time TBC" data-stadium="Toronto Stadium" data-city="Toronto">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group G</span></div>
+              <div class="result-match-time">June 15, 2026 - Time TBC</div>
+              <div class="result-stadium">Houston Stadium - Houston</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/pt.png" alt="Portugal flag" /><span>Portugal</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/kr.png" alt="Korea Republic flag" /><span>Korea Republic</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 15</span></div>
+              <p class="price-line">Category 1: $460 - $920</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Portugal vs Korea Republic" data-stage="Group G" data-date="June 15, 2026 - Time TBC" data-stadium="Houston Stadium" data-city="Houston">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group L</span></div>
+              <div class="result-match-time">June 18, 2026 - Time TBC</div>
+              <div class="result-stadium">Seattle Stadium - Seattle</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/gb-eng.png" alt="England flag" /><span>England</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/gh.png" alt="Ghana flag" /><span>Ghana</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 27</span></div>
+              <p class="price-line">Category 1: $520 - $980</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="England vs Ghana" data-stage="Group L" data-date="June 18, 2026 - Time TBC" data-stadium="Seattle Stadium" data-city="Seattle">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group K</span></div>
+              <div class="result-match-time">June 17, 2026 - Time TBC</div>
+              <div class="result-stadium">Miami Stadium - Miami</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/be.png" alt="Belgium flag" /><span>Belgium</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/uy.png" alt="Uruguay flag" /><span>Uruguay</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 24</span></div>
+              <p class="price-line">Category 1: $500 - $980</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Belgium vs Uruguay" data-stage="Group K" data-date="June 17, 2026 - Time TBC" data-stadium="Miami Stadium" data-city="Miami">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group C</span></div>
+              <div class="result-match-time">June 13, 2026 - Time TBC</div>
+              <div class="result-stadium">Boston Stadium - Foxborough</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/gb-sct.png" alt="Scotland flag" /><span>Scotland</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/ht.png" alt="Haiti flag" /><span>Haiti</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 8</span></div>
+              <p class="price-line">Category 1: $300 - $700</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Scotland vs Haiti" data-stage="Group C" data-date="June 13, 2026 - Time TBC" data-stadium="Boston Stadium" data-city="Foxborough">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group D</span></div>
+              <div class="result-match-time">June 14, 2026 - Time TBC</div>
+              <div class="result-stadium">Vancouver Stadium - Vancouver</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/au.png" alt="Australia flag" /><span>Australia</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/tr.png" alt="Turkey flag" /><span>Turkey</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 10</span></div>
+              <p class="price-line">Category 1: $320 - $740</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Australia vs Turkey" data-stage="Group D" data-date="June 14, 2026 - Time TBC" data-stadium="Vancouver Stadium" data-city="Vancouver">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group A</span></div>
+              <div class="result-match-time">June 12, 2026 - Time TBC</div>
+              <div class="result-stadium">Guadalajara Stadium - Guadalajara</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/kr.png" alt="Korea Republic flag" /><span>Korea Republic</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/cz.png" alt="Czech Republic flag" /><span>Czech Republic</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 3</span></div>
+              <p class="price-line">Category 1: $280 - $650</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Korea Republic vs Czech Republic" data-stage="Group A" data-date="June 12, 2026 - Time TBC" data-stadium="Guadalajara Stadium" data-city="Guadalajara">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group B</span></div>
+              <div class="result-match-time">June 13, 2026 - Time TBC</div>
+              <div class="result-stadium">San Francisco Bay Area Stadium - Santa Clara</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/qa.png" alt="Qatar flag" /><span>Qatar</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/ba.png" alt="Bosnia and Herzegovina flag" /><span>Bosnia & Herzegovina</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 6</span></div>
+              <p class="price-line">Category 1: $300 - $680</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Qatar vs Bosnia & Herzegovina" data-stage="Group B" data-date="June 13, 2026 - Time TBC" data-stadium="San Francisco Bay Area Stadium" data-city="Santa Clara">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group E</span></div>
+              <div class="result-match-time">June 15, 2026 - Time TBC</div>
+              <div class="result-stadium">Philadelphia Stadium - Philadelphia</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/co.png" alt="Colombia flag" /><span>Colombia</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/cw.png" alt="Curacao flag" /><span>Curacao</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 16</span></div>
+              <p class="price-line">Category 1: $300 - $720</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Colombia vs Curacao" data-stage="Group E" data-date="June 15, 2026 - Time TBC" data-stadium="Philadelphia Stadium" data-city="Philadelphia">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Group F</span></div>
+              <div class="result-match-time">June 16, 2026 - Time TBC</div>
+              <div class="result-stadium">Monterrey Stadium - Monterrey</div>
+              <div class="result-teams">
+                <div><img src="https://flagcdn.com/w320/ir.png" alt="Iran flag" /><span>Iran</span></div>
+                <strong>vs</strong>
+                <div><img src="https://flagcdn.com/w320/nz.png" alt="New Zealand flag" /><span>New Zealand</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 18</span></div>
+              <p class="price-line">Category 1: $260 - $640</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Iran vs New Zealand" data-stage="Group F" data-date="June 16, 2026 - Time TBC" data-stadium="Monterrey Stadium" data-city="Monterrey">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head"><span class="pill">Round of 32</span></div>
+              <div class="result-match-time">June 28, 2026 - Time TBC</div>
+              <div class="result-stadium">Los Angeles Stadium - Los Angeles</div>
+              <div class="result-teams">
+                <div><span class="team-seed">Group A runner-up</span></div>
+                <strong>vs</strong>
+                <div><span class="team-seed">Group B runner-up</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 73</span></div>
+              <p class="price-line">Category 1: $550 - $1,100</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="Group A runner-up vs Group B runner-up" data-stage="Round of 32" data-date="June 28, 2026 - Time TBC" data-stadium="Los Angeles Stadium" data-city="Los Angeles">Buy Ticket</a>
+            </article>
+
+            <article class="result-match-card">
+              <div class="result-card-head">
+                <span class="pill pill-gold">Limited Tickets</span>
+                <span class="pill">Final</span>
+              </div>
+              <div class="result-match-time">July 19, 2026 - Time TBC</div>
+              <div class="result-stadium">New York New Jersey Stadium - East Rutherford</div>
+              <div class="result-teams">
+                <div><span class="team-seed">Finalist 1</span></div>
+                <strong>vs</strong>
+                <div><span class="team-seed">Finalist 2</span></div>
+              </div>
+              <div class="result-extra"><span>Referee: TBC</span><span>Match 104</span></div>
+              <p class="price-line">Category 1: $1,200 - $2,000</p>
+              <a class="button button-primary button-full" href="#" data-whatsapp-ticket data-match="FIFA World Cup 2026 Final" data-stage="Final" data-date="July 19, 2026 - Time TBC" data-stadium="New York New Jersey Stadium" data-city="East Rutherford">Buy Ticket</a>
+            </article>
+          </div>
+
+          <nav class="pagination" aria-label="Match results pagination">
+            <button class="pagination-btn is-active" type="button" aria-current="page">1</button>
+            <button class="pagination-btn" type="button">2</button>
+            <button class="pagination-btn" type="button">3</button>
+            <button class="pagination-btn" type="button">4</button>
+            <button class="pagination-btn" type="button">5</button>
+            <button class="button button-secondary" type="button">Load More</button>
+          </nav>
+            </div>
+
+            <aside class="matches-sidebar" aria-label="Match page quick links">
+              <article class="sidebar-panel">
+                <h3>Popular Matches This Week</h3>
+                <div class="sidebar-link-list">
+                  <a href="ticket-detail.html?match=1">
+                    <strong>Mexico vs South Africa</strong>
+                    <span>Opening Match</span>
+                  </a>
+                  <a href="ticket-detail.html?match=4">
+                    <strong>USA vs Paraguay</strong>
+                    <span>Host nation fixture</span>
+                  </a>
+                  <a href="ticket-detail.html?match=7">
+                    <strong>Brazil vs Morocco</strong>
+                    <span>High demand</span>
+                  </a>
+                </div>
+              </article>
+
+              <article class="sidebar-panel">
+                <h3>Upcoming Big Fixtures</h3>
+                <div class="sidebar-link-list">
+                  <a href="ticket-detail.html?match=17">
+                    <strong>France vs Senegal</strong>
+                    <span>Premium group match</span>
+                  </a>
+                  <a href="ticket-detail.html?match=19">
+                    <strong>Argentina vs Algeria</strong>
+                    <span>Champion watch</span>
+                  </a>
+                  <a href="ticket-detail.html?match=22">
+                    <strong>England vs Croatia</strong>
+                    <span>European rivalry</span>
+                  </a>
+                </div>
+              </article>
+
+              <article class="sidebar-panel">
+                <h3>Top Stadiums</h3>
+                <div class="sidebar-link-list compact">
+                  <a href="stadiums.html#metlife">New York New Jersey Stadium</a>
+                  <a href="stadiums.html#att">Dallas Stadium</a>
+                  <a href="stadiums.html#sofi">Los Angeles Stadium</a>
+                  <a href="stadiums.html#mercedes-benz">Atlanta Stadium</a>
+                </div>
+              </article>
+
+              <article class="sidebar-panel">
+                <h3>Quick Links</h3>
+                <div class="quick-stage-links">
+                  <a href="#filter-stage" data-stage-shortcut="group-stage">Group Stage</a>
+                  <a href="#filter-stage" data-stage-shortcut="round-of-32">Round of 32</a>
+                  <a href="#filter-stage" data-stage-shortcut="round-of-16">Round of 16</a>
+                  <a href="#filter-stage" data-stage-shortcut="quarter-finals">Quarter-finals</a>
+                  <a href="#filter-stage" data-stage-shortcut="semi-finals">Semi-finals</a>
+                  <a href="#filter-stage" data-stage-shortcut="final">Final</a>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="match-trust-cta" aria-label="Match support call to action">
+        <div class="container match-trust-card">
+          <div class="match-trust-points">
+            <span>Tickets verified before delivery</span>
+            <span>Instant confirmation via WhatsApp</span>
+            <span>All matches available on request</span>
+          </div>
+          <div>
+            <h2>Still Can’t Find Your Match?</h2>
+            <p>Send us a WhatsApp message and we’ll help you check availability, categories, and next steps.</p>
+          </div>
+          <a
+            class="button button-primary button-hero"
+            href="#"
+            data-whatsapp-general
+            data-message="Hi, I cannot find my World Cup 2026 match. Please help me check ticket availability."
+          >
+            Chat With Us
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="WcFifa home">
+            <span class="brand-mark"><img src="assets/images/teams/fifa world cup logo.png" alt="" /></span>
+            <span>
+              WcFifa
+              <small>Independent ticket assistance</small>
+            </span>
+          </a>
+          <p class="small">
+            Browse World Cup 2026 matches, stadiums, and ticket categories, then request availability through WhatsApp.
+          </p>
+          <p class="small">
+            This website is an independent ticket inquiry service and is not affiliated with FIFA, FIFA World Cup 26,
+            host cities, stadiums, or national teams.
+          </p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="matches.html">All Matches</a>
+            <a href="stadiums.html">Host Stadiums</a>
+            <a href="teams.html">Qualified Teams</a>
+            <a href="how-it-works.html">How It Works</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Buyer Support</h4>
+          <div class="footer-links">
+            <a href="contact.html">Contact</a>
+            <a href="contact.html#faq">FAQ</a>
+            <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank" rel="noopener">
+              Official FIFA Info
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>&copy; <span data-current-year></span> WcFifa. Independent service. Tickets subject to availability and verification.</span>
+      </div>
+    </footer>
+
+    <a
+      class="button button-primary floating-whatsapp"
+      href="#"
+      aria-label="Continue on WhatsApp"
+      data-whatsapp-general
+    >
+      Continue on WhatsApp
+    </a>
+
+    <script src="assets/js/whatsapp.js"></script>
+    <script src="assets/js/match-data.js"></script>
+    <script src="assets/js/matches.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,369 @@
+@media (max-width: 1080px) {
+  .matches-content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .matches-sidebar {
+    position: static;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ticket-detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid,
+  .featured-match-grid,
+  .matches-results-grid,
+  .group-teasers,
+  .steps-grid,
+  .support-lines,
+  .contact-layout,
+  .why-grid,
+  .hiw-why-grid,
+  .reviews-grid,
+  .review-trust-strip,
+  .filters-grid,
+  .team-options,
+  .grid-4,
+  .trust-strip,
+  .stat-grid,
+  .quick-stats-grid,
+  .form-grid,
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 820px) {
+  .topbar-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .nav {
+    min-height: 70px;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid var(--color-border);
+    background: #ffffff;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .nav-links a {
+    min-height: 46px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-links a:last-child {
+    border-bottom: 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 52px 0;
+  }
+
+  .hero-grid,
+  .featured-match-grid,
+  .matches-results-grid,
+  .stadium-page-grid,
+  .teams-page-grid,
+  .matches-sidebar,
+  .group-teasers,
+  .steps-grid,
+  .support-lines,
+  .support-number-grid,
+  .why-grid,
+  .hiw-why-grid,
+  .reviews-grid,
+  .review-trust-strip,
+  .filters-grid,
+  .stadium-filter-panel,
+  .teams-page-grid,
+  .team-options,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .trust-strip,
+  .stat-grid,
+  .quick-stats-grid,
+  .form-grid,
+  .contact-layout,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-slot {
+    min-height: 260px;
+  }
+
+  .home-hero {
+    min-height: calc(100svh - 110px);
+    padding: 64px 0;
+    background-position: center;
+  }
+
+  .trust-item {
+    min-height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .trust-item:last-child {
+    border-bottom: 0;
+  }
+
+  .quick-stats {
+    margin-top: 0;
+    padding: 18px 0 0;
+    background: var(--color-page);
+  }
+
+  .quick-stat {
+    min-height: 92px;
+    border-right: 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .quick-stat:last-child {
+    border-bottom: 0;
+  }
+
+  .ticket-card {
+    min-height: auto;
+  }
+
+  .stadium-scroll {
+    grid-auto-columns: minmax(245px, 82vw);
+  }
+
+  .stadium-card {
+    min-height: 220px;
+  }
+
+  .seating-preview {
+    opacity: 1;
+    transform: none;
+  }
+
+  .flag-carousel {
+    grid-auto-columns: 124px;
+  }
+
+  /* How It Works responsive */
+  .hiw-category-preview,
+  .hiw-delivery-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hiw-step-card {
+    grid-template-columns: 46px 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: min(100% - 24px, var(--container));
+  }
+
+  .section {
+    padding: 52px 0;
+  }
+
+  .section-tight {
+    padding: 34px 0;
+  }
+
+  h1,
+  .display {
+    font-size: clamp(2.05rem, 12vw, 3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.55rem, 9vw, 2.1rem);
+  }
+
+  .topbar {
+    font-size: 0.78rem;
+  }
+
+  .topbar-inner {
+    min-height: 34px;
+    padding: 6px 0;
+  }
+
+  .topbar-links {
+    display: none;
+  }
+
+  .brand {
+    max-width: calc(100% - 58px);
+  }
+
+  .brand-mark {
+    width: 46px;
+    height: 46px;
+  }
+
+  .hero-panel,
+  .card-body,
+  .form-card {
+    padding: 16px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .button-row,
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .floating-whatsapp {
+    left: 12px;
+    right: 12px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .home-hero {
+    min-height: calc(100svh - 126px);
+    padding: 52px 0 86px;
+  }
+
+  .countdown-card {
+    padding: 14px;
+  }
+
+  .countdown-timer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .countdown-timer span {
+    min-height: 74px;
+    padding: 8px 6px;
+  }
+
+  .final-cta {
+    padding: 64px 0 92px;
+  }
+
+  .page-hero {
+    min-height: 380px;
+    padding: 54px 0;
+  }
+
+  .match-search {
+    grid-template-columns: 1fr;
+  }
+
+  .filters-panel {
+    padding: 16px;
+  }
+
+  .teams-filter-header,
+  .filter-actions,
+  .results-summary-bar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .view-toggle {
+    width: 100%;
+  }
+
+  .view-toggle button {
+    flex: 1;
+  }
+
+  html[data-match-view="list"] .result-match-card {
+    display: flex;
+  }
+
+  html[data-match-view="list"] .result-teams {
+    margin: 18px 0;
+    padding: 16px 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .match-trust-card {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+
+  .ticket-option-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .ticket-options-head {
+    flex-direction: column;
+  }
+
+  .seat-map {
+    min-height: 280px;
+  }
+
+  .image-seat-map,
+  .image-seat-map img {
+    min-height: 300px;
+  }
+
+  /* How It Works mobile */
+  .hiw-step-card {
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+  }
+
+  .hiw-step-body {
+    padding-bottom: 28px;
+  }
+
+  .hiw-step-body h3 {
+    font-size: 1.12rem;
+  }
+
+  .hiw-msg-bubble {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  /* Contact mobile */
+  .contact-info-col {
+    position: static;
+  }
+
+  .form-grid[style] {
+    grid-template-columns: 1fr !important;
+  }
+}

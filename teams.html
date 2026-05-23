@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the 48 qualified nations for FIFA World Cup 2026 and request team match tickets through WhatsApp."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <title>48 Qualified Nations | WcFifa</title>
+    <link rel="icon" type="image/png" href="assets/images/teams/fifa%20world%20cup%20logo.png" />
+    <link rel="apple-touch-icon" href="assets/images/teams/fifa%20world%20cup%20logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span><strong>WcFifa ticket assistance</strong> via WhatsApp</span>
+        <div class="topbar-links" aria-label="Trust notes">
+          <span>Availability confirmed before payment</span>
+          <span>Independent service</span>
+          <span>Canada · Mexico · USA</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="WcFifa home">
+          <span class="brand-mark"><img src="assets/images/teams/fifa world cup logo.png" alt="" /></span>
+          <span>
+            WcFifa
+            <small>Canada · Mexico · USA</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open menu" data-nav-toggle>
+          <span class="nav-toggle-line" aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav-links" aria-label="Main navigation" data-nav-links>
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="matches.html" data-nav-link>Matches</a>
+          <a href="stadiums.html" data-nav-link>Stadiums</a>
+          <a href="teams.html" data-nav-link>Teams</a>
+          <a href="how-it-works.html" data-nav-link>How It Works</a>
+          <a href="contact.html" data-nav-link>Contact</a>
+          <a class="button button-primary" href="#" data-whatsapp-general>WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero teams-hero" aria-labelledby="teams-hero-title">
+        <div class="container page-hero-content">
+          <p class="hero-kicker">48 qualified nations</p>
+          <h1 id="teams-hero-title">FIFA World Cup 2026 Teams</h1>
+          <p class="page-hero-subtitle">Browse every qualified nation, explore confederations, and request team match tickets.</p>
+          <form class="match-search teams-search" role="search" aria-label="Search teams">
+            <label class="sr-only" for="team-search-input">Search teams</label>
+            <input id="team-search-input" type="search" placeholder="Search country or confederation" data-team-page-search />
+            <button class="button button-primary" type="submit">Search Teams</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="quick-stats teams-stats" aria-label="World Cup 2026 team stats">
+        <div class="container quick-stats-grid">
+          <div class="quick-stat">
+            <strong>48</strong>
+            <span>Qualified Nations</span>
+          </div>
+          <div class="quick-stat">
+            <strong>6</strong>
+            <span>Confederations</span>
+          </div>
+          <div class="quick-stat">
+            <strong>12</strong>
+            <span>Groups</span>
+          </div>
+          <div class="quick-stat">
+            <strong>104</strong>
+            <span>Matches</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white teams-page-section" aria-labelledby="teams-page-title">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Teams directory</p>
+            <h2 id="teams-page-title">All Qualified Teams</h2>
+            <p class="muted">Use the tabs to browse by confederation, or search for the team you want to follow.</p>
+          </div>
+
+          <div class="confed-tabs" aria-label="Filter teams by confederation">
+            <button class="is-active" type="button" data-confed-filter="all">All</button>
+            <button type="button" data-confed-filter="Hosts">Hosts</button>
+            <button type="button" data-confed-filter="AFC">AFC</button>
+            <button type="button" data-confed-filter="CAF">CAF</button>
+            <button type="button" data-confed-filter="Concacaf">Concacaf</button>
+            <button type="button" data-confed-filter="CONMEBOL">CONMEBOL</button>
+            <button type="button" data-confed-filter="OFC">OFC</button>
+            <button type="button" data-confed-filter="UEFA">UEFA</button>
+          </div>
+
+          <div class="teams-results-summary" data-teams-results-summary aria-live="polite"></div>
+          <div class="teams-page-grid" data-teams-page-grid></div>
+          <div class="pagination teams-pagination" data-teams-pagination aria-label="Teams pagination"></div>
+        </div>
+      </section>
+
+      <section class="match-trust-cta teams-bottom-cta" aria-label="Team ticket support call to action">
+        <div class="container match-trust-card">
+          <div class="match-trust-points">
+            <span>Team match requests</span>
+            <span>Group and knockout tickets</span>
+            <span>WhatsApp support</span>
+          </div>
+          <div>
+            <h2>Want tickets for a specific team?</h2>
+            <p>Tell us the team, match, quantity, and preferred ticket category. We’ll help check availability.</p>
+          </div>
+          <a
+            class="button button-primary button-hero"
+            href="#"
+            data-whatsapp-general
+            data-message="Hi, I want World Cup 2026 tickets for a specific team. Please help me check available matches."
+          >
+            Chat About Team Tickets
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="WcFifa home">
+            <span class="brand-mark"><img src="assets/images/teams/fifa world cup logo.png" alt="" /></span>
+            <span>
+              WcFifa
+              <small>Independent ticket assistance</small>
+            </span>
+          </a>
+          <p class="small">
+            Browse World Cup 2026 matches, stadiums, and ticket categories, then request availability through WhatsApp.
+          </p>
+          <p class="small">
+            This website is an independent ticket inquiry service and is not affiliated with FIFA, FIFA World Cup 26,
+            host cities, stadiums, or national teams.
+          </p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="matches.html">All Matches</a>
+            <a href="stadiums.html">Host Stadiums</a>
+            <a href="teams.html">Qualified Teams</a>
+            <a href="how-it-works.html">How It Works</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Buyer Support</h4>
+          <div class="footer-links">
+            <a href="contact.html">Contact</a>
+            <a href="contact.html#faq">FAQ</a>
+            <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank" rel="noopener">
+              Official FIFA Info
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>&copy; <span data-current-year></span> WcFifa. Independent service. Tickets subject to availability and verification.</span>
+      </div>
+    </footer>
+
+    <a class="button button-primary floating-whatsapp" href="#" aria-label="Continue on WhatsApp" data-whatsapp-general>
+      Continue on WhatsApp
+    </a>
+
+    <script src="assets/js/whatsapp.js"></script>
+    <script src="assets/js/teams.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
