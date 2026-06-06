@@ -50,7 +50,7 @@
   const matchTitle = `${match.teamA} vs ${match.teamB} Tickets`;
   const matchDate = `${match.displayDate} - ${match.time}`;
 
-  document.title = `${matchTitle} | WcFifa`;
+  document.title = `${matchTitle} | Wc26Hub`;
   setText("[data-ticket-title]", matchTitle);
   setText("[data-ticket-subtitle]", `FIFA World Cup 2026 - Match ${match.number}`);
   setText("[data-ticket-date]", matchDate);
