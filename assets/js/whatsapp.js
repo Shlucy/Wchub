@@ -4,8 +4,6 @@
     numbers: [
       "15745262861",
       "18287502153",
-      "15043964033",
-      "16068135916",
     ],
     defaultMessage:
       "Hi, I want to check World Cup 2026 ticket availability. Please send me the available matches and categories.",
