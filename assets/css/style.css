@@ -234,8 +234,8 @@ h4 {
 }
 
 .brand-mark {
-  width: 54px;
-  height: 54px;
+  width: 100px;
+  height: 100px;
   display: grid;
   flex: 0 0 auto;
   place-items: center;
@@ -746,7 +746,7 @@ h4 {
   padding: 86px 0;
   background:
     linear-gradient(90deg, rgba(15, 23, 42, 0.84) 0%, rgba(15, 23, 42, 0.62) 52%, rgba(15, 23, 42, 0.34) 100%),
-    url("../images/stadiums/metlife.png") center / cover no-repeat,
+    url("../images/stadiums/AT&T Stadium, Dallas.png") center / cover no-repeat,
     #0f172a;
   color: #ffffff;
 }
