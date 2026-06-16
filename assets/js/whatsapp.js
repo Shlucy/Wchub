@@ -2,8 +2,7 @@
   const WHATSAPP_CONFIG = {
     selectionMode: "rotate", // Use "rotate" to share leads evenly, or "random" to pick any number.
     numbers: [
-      "15745262861",
-      "18287502153",
+      "14806728617",
     ],
     defaultMessage:
       "Hi, I want to check World Cup 2026 ticket availability. Please send me the available matches and categories.",
