@@ -93,4 +93,39 @@
   document.querySelectorAll("[data-current-year]").forEach((element) => {
     element.textContent = String(new Date().getFullYear());
   });
+  const matches = Array.isArray(window.WC26_MATCHES) ? window.WC26_MATCHES : [];
+
+  document.querySelectorAll('.featured-match-grid .ticket-card').forEach((card) => {
+    const link = card.querySelector('a[href*="ticket-detail.html?match="]');
+
+    if (!link) return;
+
+    const matchNumber = Number(
+      new URL(link.href, window.location.origin).searchParams.get("match")
+    );
+
+    const match = matches.find((m) => m.number === matchNumber);
+
+    if (!match) return;
+
+    const matchDate = new Date(`${match.date}T23:59:59`);
+
+    if (Date.now() > matchDate.getTime()) {
+      link.removeAttribute("href");
+      link.textContent = "Sold Out";
+      link.classList.remove("button-primary");
+      link.classList.add("button-secondary");
+      link.style.pointerEvents = "none";
+      link.style.opacity = "0.7";
+
+      const top = card.querySelector(".ticket-card-top");
+
+      if (top && !top.querySelector(".pill-red")) {
+        top.insertAdjacentHTML(
+          "afterbegin",
+          '<span class="pill pill-red">Sold Out</span>'
+        );
+      }
+    }
+  });
 })();
