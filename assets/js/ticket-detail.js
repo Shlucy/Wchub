@@ -3,6 +3,7 @@
   const stadiums = Array.isArray(window.WC26_STADIUMS) ? window.WC26_STADIUMS : [];
   const params = new URLSearchParams(window.location.search);
   const matchNumber = Number(params.get("match") || 1);
+  const isSoldOut = new Date(match.date + "T23:59:59") < new Date();
   const match = matches.find((item) => item.number === matchNumber) || matches[0];
   const stadium = stadiums.find((item) => item.name === match.stadium);
   const seatMap = document.querySelector("[data-seat-map]");
@@ -79,45 +80,45 @@
 
   const optionsContainer = document.querySelector("[data-ticket-options]");
   if (optionsContainer) {
+  if (isSoldOut) {
+    optionsContainer.innerHTML = 
+      <div class="notice notice-error">
+        This match is sold out.
+      </div>
+    ;
+  } else {
     optionsContainer.innerHTML = ticketCategories
-      .map(
-        (category, index) => `
-          <div class="ticket-option-row">
-            <div>
-              <strong>${category.name}</strong>
-              <span>${category.note}</span>
-            </div>
-            <div class="ticket-price">${money(category.price)} <small>USD</small></div>
-            <div class="ticket-quantity">
-              ${
-                category.soldOut
-                  ? '<span class="sold-out">Sold Out</span>'
-                  : `<select aria-label="Quantity for ${category.name}" data-ticket-quantity="${index}">
-                      ${Array.from({ length: category.available }, (_, qty) => `<option value="${qty + 1}">${qty + 1}</option>`).join("")}
-                    </select>
-                    <span>of ${category.available}</span>`
-              }
-            </div>
-            <div>
-              ${
-                category.soldOut
-                  ? '<span class="sold-out">Sold Out</span>'
-                  : `<button
-                      class="button button-primary"
-                      type="button"
-                      data-book-ticket
-                      data-category-index="${index}"
-                    >
-                      Book
-                    </button>`
-              }
-            </div>
+      .map((category, index) => 
+        <div class="ticket-option-row">
+          <div>
+            <strong>${category.name}</strong>
+            <span>${category.note}</span>
           </div>
-        `
+          <div class="ticket-price">${money(category.price)} <small>USD</small></div>
+          <div class="ticket-quantity">
+            <select data-ticket-quantity="${index}">
+              ${Array.from(
+                { length: category.available },
+                (_, qty) => <option value="${qty + 1}">${qty + 1}</option>
+              ).join("")}
+            </select>
+          </div>
+          <div>
+            <button
+              class="button button-primary"
+              type="button"
+              data-book-ticket
+              data-category-index="${index}"
+            >
+              Book
+            </button>
+          </div>
+        </div>
       )
       .join("");
   }
-
+}
+if (isSoldOut) return;
   document.addEventListener("click", (event) => {
     const bookButton = event.target.closest("[data-book-ticket]");
 

@@ -131,12 +131,9 @@
       </div>
       <div class="result-extra"><span>Referee: TBC</span><span>Match ${match.number}</span><span>${match.source}</span></div>
       <p class="price-line">${match.priceRange}</p>
-      <a
-        class="button button-primary button-full"
-        href="ticket-detail.html?match=${match.number}"
-      >
-        Buy Ticket
-      </a>
+      ${
+        match.soldOut ? `<span class="button button-disabled button-full">Sold Out</span>` : `<a class="button button-primary button-full" href="ticket-detail.html?match=${match.number}">Buy Ticket</a>`
+      }
     </article>
   `;
 
