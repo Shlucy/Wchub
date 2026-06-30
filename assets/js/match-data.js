@@ -177,6 +177,7 @@ window.WC26_FLAGS = {
   "Curaçao": "https://flagcdn.com/w320/cw.png",
   "Czechia": "https://flagcdn.com/w320/cz.png",
   "Côte d'Ivoire": "https://flagcdn.com/w320/ci.png",
+  "DR Congo": "https://flagcdn.com/w320/cd.png",
   "Ecuador": "https://flagcdn.com/w320/ec.png",
   "Egypt": "https://flagcdn.com/w320/eg.png",
   "England": "https://flagcdn.com/w320/gb-eng.png",
@@ -186,6 +187,7 @@ window.WC26_FLAGS = {
   "Haiti": "https://flagcdn.com/w320/ht.png",
   "IR Iran": "https://flagcdn.com/w320/ir.png",
   "Iraq": "https://flagcdn.com/w320/iq.png",
+  "Ivory Coast": "https://flagcdn.com/w320/ci.png",
   "Japan": "https://flagcdn.com/w320/jp.png",
   "Jordan": "https://flagcdn.com/w320/jo.png",
   "Korea Republic": "https://flagcdn.com/w320/kr.png",
@@ -285,22 +287,22 @@ const matchRows = `
 70|2026-06-27|Time TBC|Group J|Jordan|Argentina|Dallas Stadium|Arlington|United States
 71|2026-06-27|Time TBC|Group K|Colombia|Portugal|Miami Stadium|Miami Gardens|United States
 72|2026-06-27|Time TBC|Group K|Congo DR|Uzbekistan|Atlanta Stadium|Atlanta|United States
-73|2026-06-28|Time TBC|Round of 32|Group A runners-up|Group B runners-up|Los Angeles Stadium|Los Angeles|United States
-74|2026-06-29|Time TBC|Round of 32|Group E winners|Group A/B/C/D/F third place|Boston Stadium|Foxborough|United States
-75|2026-06-29|Time TBC|Round of 32|Group F winners|Group C runners-up|Estadio Monterrey|Monterrey|Mexico
-76|2026-06-29|Time TBC|Round of 32|Group C winners|Group F runners-up|Houston Stadium|Houston|United States
-77|2026-06-30|Time TBC|Round of 32|Group I winners|Group C/D/F/G/H third place|New York New Jersey Stadium|East Rutherford|United States
-78|2026-06-30|Time TBC|Round of 32|Group E runners-up|Group I runners-up|Dallas Stadium|Arlington|United States
-79|2026-06-30|Time TBC|Round of 32|Group A winners|Group C/E/F/H/I third place|Mexico City Stadium|Mexico City|Mexico
-80|2026-07-01|Time TBC|Round of 32|Group L winners|Group E/H/I/J/K third place|Atlanta Stadium|Atlanta|United States
-81|2026-07-01|Time TBC|Round of 32|Group D winners|Group B/E/F/I/J third place|San Francisco Bay Area Stadium|Santa Clara|United States
-82|2026-07-01|Time TBC|Round of 32|Group G winners|Group A/E/H/I/J third place|Seattle Stadium|Seattle|United States
-83|2026-07-02|Time TBC|Round of 32|Group K runners-up|Group L runners-up|Toronto Stadium|Toronto|Canada
-84|2026-07-02|Time TBC|Round of 32|Group H winners|Group J runners-up|Los Angeles Stadium|Los Angeles|United States
-85|2026-07-02|Time TBC|Round of 32|Group B winners|Group E/F/G/I/J third place|BC Place Vancouver|Vancouver|Canada
-86|2026-07-03|Time TBC|Round of 32|Group J winners|Group H runners-up|Miami Stadium|Miami Gardens|United States
-87|2026-07-03|Time TBC|Round of 32|Group K winners|Group D/E/I/J/L third place|Kansas City Stadium|Kansas City|United States
-88|2026-07-03|Time TBC|Round of 32|Group D runners-up|Group G runners-up|Dallas Stadium|Arlington|United States
+73|2026-06-28|Time TBC|Round of 32|South Africa|Canada|Los Angeles Stadium|Los Angeles|United States
+74|2026-06-29|Time TBC|Round of 32|Brazil|Japan|Boston Stadium|Foxborough|United States
+75|2026-06-29|Time TBC|Round of 32|Germany|Paraguay|Estadio Monterrey|Monterrey|Mexico
+76|2026-06-29|Time TBC|Round of 32|Netherlands|Morocco|Houston Stadium|Houston|United States
+77|2026-06-30|Time TBC|Round of 32|Ivory Coast|Norway|New York New Jersey Stadium|East Rutherford|United States
+78|2026-06-30|Time TBC|Round of 32|France|Sweden|Dallas Stadium|Arlington|United States
+79|2026-06-30|Time TBC|Round of 32|Mexico|Ecuador|Mexico City Stadium|Mexico City|Mexico
+80|2026-07-01|Time TBC|Round of 32|England|DR Congo|Atlanta Stadium|Atlanta|United States
+81|2026-07-01|Time TBC|Round of 32|Belgium|Senegal|San Francisco Bay Area Stadium|Santa Clara|United States
+82|2026-07-01|Time TBC|Round of 32|USA|Bosnia and Herzegovina|Seattle Stadium|Seattle|United States
+83|2026-07-02|Time TBC|Round of 32|Spain|Austria|Toronto Stadium|Toronto|Canada
+84|2026-07-02|Time TBC|Round of 32|Portugal|Croatia|Los Angeles Stadium|Los Angeles|United States
+85|2026-07-02|Time TBC|Round of 32|Switzerland|Algeria|BC Place Vancouver|Vancouver|Canada
+86|2026-07-03|Time TBC|Round of 32|Australia|Egypt|Miami Stadium|Miami Gardens|United States
+87|2026-07-03|Time TBC|Round of 32|Argentina|Cabo Verde|Kansas City Stadium|Kansas City|United States
+88|2026-07-03|Time TBC|Round of 32|Colombia|Ghana|Dallas Stadium|Arlington|United States
 89|2026-07-04|Time TBC|Round of 16|Winner match 74|Winner match 77|Philadelphia Stadium|Philadelphia|United States
 90|2026-07-04|Time TBC|Round of 16|Winner match 73|Winner match 75|Houston Stadium|Houston|United States
 91|2026-07-05|Time TBC|Round of 16|Winner match 76|Winner match 78|New York New Jersey Stadium|East Rutherford|United States
