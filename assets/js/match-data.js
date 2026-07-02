@@ -303,11 +303,11 @@ const matchRows = `
 86|2026-07-03|Time TBC|Round of 32|Australia|Egypt|Miami Stadium|Miami Gardens|United States
 87|2026-07-03|Time TBC|Round of 32|Argentina|Cabo Verde|Kansas City Stadium|Kansas City|United States
 88|2026-07-03|Time TBC|Round of 32|Colombia|Ghana|Dallas Stadium|Arlington|United States
-89|2026-07-04|Time TBC|Round of 16|Winner match 74|Winner match 77|Philadelphia Stadium|Philadelphia|United States
-90|2026-07-04|Time TBC|Round of 16|Winner match 73|Winner match 75|Houston Stadium|Houston|United States
-91|2026-07-05|Time TBC|Round of 16|Winner match 76|Winner match 78|New York New Jersey Stadium|East Rutherford|United States
-92|2026-07-05|Time TBC|Round of 16|Winner match 79|Winner match 80|Mexico City Stadium|Mexico City|Mexico
-93|2026-07-06|Time TBC|Round of 16|Winner match 83|Winner match 84|Dallas Stadium|Arlington|United States
+89|2026-07-04|Time TBC|Round of 16|Canada|Morocco|Philadelphia Stadium|Philadelphia|United States
+90|2026-07-04|Time TBC|Round of 16|Brazil|Norway|Houston Stadium|Houston|United States
+91|2026-07-05|Time TBC|Round of 16|Paraguay|France|New York New Jersey Stadium|East Rutherford|United States
+92|2026-07-05|Time TBC|Round of 16|Mexico|England|Mexico City Stadium|Mexico City|Mexico
+93|2026-07-06|Time TBC|Round of 16|USA|Belgium|Dallas Stadium|Arlington|United States
 94|2026-07-06|Time TBC|Round of 16|Winner match 81|Winner match 82|Seattle Stadium|Seattle|United States
 95|2026-07-07|Time TBC|Round of 16|Winner match 86|Winner match 88|Atlanta Stadium|Atlanta|United States
 96|2026-07-07|Time TBC|Round of 16|Winner match 85|Winner match 87|BC Place Vancouver|Vancouver|Canada
