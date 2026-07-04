@@ -304,13 +304,13 @@ const matchRows = `
 87|2026-07-03|Time TBC|Round of 32|Argentina|Cabo Verde|Kansas City Stadium|Kansas City|United States
 88|2026-07-03|Time TBC|Round of 32|Colombia|Ghana|Dallas Stadium|Arlington|United States
 89|2026-07-04|Time TBC|Round of 16|Canada|Morocco|Philadelphia Stadium|Philadelphia|United States
-90|2026-07-04|Time TBC|Round of 16|Brazil|Norway|Houston Stadium|Houston|United States
-91|2026-07-05|Time TBC|Round of 16|Paraguay|France|New York New Jersey Stadium|East Rutherford|United States
+90|2026-07-04|Time TBC|Round of 16|Paraguay|France|Houston Stadium|Houston|United States
+91|2026-07-05|Time TBC|Round of 16|Brazil|Norway|New York New Jersey Stadium|East Rutherford|United States
 92|2026-07-05|Time TBC|Round of 16|Mexico|England|Mexico City Stadium|Mexico City|Mexico
-93|2026-07-06|Time TBC|Round of 16|USA|Belgium|Dallas Stadium|Arlington|United States
-94|2026-07-06|Time TBC|Round of 16|Winner match 81|Winner match 82|Seattle Stadium|Seattle|United States
-95|2026-07-07|Time TBC|Round of 16|Winner match 86|Winner match 88|Atlanta Stadium|Atlanta|United States
-96|2026-07-07|Time TBC|Round of 16|Winner match 85|Winner match 87|BC Place Vancouver|Vancouver|Canada
+93|2026-07-06|Time TBC|Round of 16|Portugal|Spain|Dallas Stadium|Arlington|United States
+94|2026-07-06|Time TBC|Round of 16|USA|Belgium|Seattle Stadium|Seattle|United States
+95|2026-07-07|Time TBC|Round of 16|Argentina|Egypt|Atlanta Stadium|Atlanta|United States
+96|2026-07-07|Time TBC|Round of 16|Switzerland|Colombia|BC Place Vancouver|Vancouver|Canada
 97|2026-07-09|Time TBC|Quarter-finals|Winner match 89|Winner match 90|Boston Stadium|Foxborough|United States
 98|2026-07-10|Time TBC|Quarter-finals|Winner match 93|Winner match 94|Los Angeles Stadium|Los Angeles|United States
 99|2026-07-11|Time TBC|Quarter-finals|Winner match 91|Winner match 92|Miami Stadium|Miami Gardens|United States
