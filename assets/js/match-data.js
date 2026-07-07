@@ -311,9 +311,9 @@ const matchRows = `
 94|2026-07-06|Time TBC|Round of 16|USA|Belgium|Seattle Stadium|Seattle|United States
 95|2026-07-07|Time TBC|Round of 16|Argentina|Egypt|Atlanta Stadium|Atlanta|United States
 96|2026-07-07|Time TBC|Round of 16|Switzerland|Colombia|BC Place Vancouver|Vancouver|Canada
-97|2026-07-09|Time TBC|Quarter-finals|Winner match 89|Winner match 90|Boston Stadium|Foxborough|United States
-98|2026-07-10|Time TBC|Quarter-finals|Winner match 93|Winner match 94|Los Angeles Stadium|Los Angeles|United States
-99|2026-07-11|Time TBC|Quarter-finals|Winner match 91|Winner match 92|Miami Stadium|Miami Gardens|United States
+97|2026-07-09|Time TBC|Quarter-finals|France|Morocco|Boston Stadium|Foxborough|United States
+98|2026-07-10|Time TBC|Quarter-finals|Spain|Belgium|Los Angeles Stadium|Los Angeles|United States
+99|2026-07-11|Time TBC|Quarter-finals|Norway|England|Miami Stadium|Miami Gardens|United States
 100|2026-07-11|Time TBC|Quarter-finals|Winner match 95|Winner match 96|Kansas City Stadium|Kansas City|United States
 101|2026-07-14|Time TBC|Semi-finals|Winner match 97|Winner match 98|Dallas Stadium|Arlington|United States
 102|2026-07-15|Time TBC|Semi-finals|Winner match 99|Winner match 100|Atlanta Stadium|Atlanta|United States
