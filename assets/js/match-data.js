@@ -317,8 +317,8 @@ const matchRows = `
 100|2026-07-11|Time TBC|Quarter-finals|Argentina|Switzerland|Kansas City Stadium|Kansas City|United States
 101|2026-07-14|Time TBC|Semi-finals|France|Spain|Dallas Stadium|Arlington|United States
 102|2026-07-15|Time TBC|Semi-finals|England|Argentina|Atlanta Stadium|Atlanta|United States
-103|2026-07-18|Time TBC|Third-place play-off|Runner-up match 101|Runner-up match 102|Miami Stadium|Miami Gardens|United States
-104|2026-07-19|Time TBC|Final|Winner match 101|Winner match 102|New York New Jersey Stadium|East Rutherford|United States
+103|2026-07-18|Time TBC|Third-place play-off|France|England|Miami Stadium|Miami Gardens|United States
+104|2026-07-19|Time TBC|Final|Spain|Argentina|New York New Jersey Stadium|East Rutherford|United States
 `.trim();
 
 const formatDate = (value) =>
